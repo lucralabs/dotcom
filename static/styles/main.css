@@ -1,0 +1,41 @@
+@font-face {
+  font-family: SuisseIntl-Regular;
+  src: url(static/fonts/SuisseIntl-Regular.woff2) format('woff2'),
+       url(static/fonts/SuisseIntl-Regular.woff) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SuisseIntlMono-Regular;
+  src: url(static/fonts/SuisseIntlMono-Regular.woff2) format('woff2'),
+       url(static/fonts/SuisseIntlMono-Regular.woff) format('woff');
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #00fa49;
+  color: #fff;
+  font-family: SuisseIntl-Regular, SuisseIntlMono-Regular, monospace;
+  font-size: 14px;
+  text-align: center;
+  gap: 40px;
+}
+
+.logo-svg {
+  width: 15%;
+  /* max-width: min(75vw, 359px); */
+  height: auto;
+  display: block;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.75em;
+  color: #121314;
+}
