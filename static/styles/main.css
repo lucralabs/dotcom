@@ -28,7 +28,7 @@ body {
 }
 
 .logo-svg {
-  width: 15%;
+  width: 60%;
   /* max-width: min(75vw, 359px); */
   height: auto;
   display: block;
@@ -38,4 +38,5 @@ body {
   text-align: center;
   font-size: 0.75em;
   color: #121314;
+
 }
